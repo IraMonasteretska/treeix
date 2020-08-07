@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Start head -->
+<head>
+  <meta charset="utf-8" />
+  <title>Front-end</title>
+
+  <!-- SEO meta tags -->
+  <!-- <meta property="og:url" content="url" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="title" />
+        <meta property="og:description" content="description"/>
+        <meta property="og:image" content="url" />
+        <meta property="og:site_name" content="title" />
+        <meta name="twitter:card" content=summary />
+        <meta name="twitter:description" content="description"/>
+        <meta name="twitter:title" content="title" /> -->
+  <!--End SEO meta tags -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Template Basic Images Start -->
+  <link rel="icon" href="img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
+  <!-- Template Basic Images End -->
+
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#000" />
+  <!-- Custom Browsers Color End -->
+
+
+  <style>
+    body {
+      opacity: 0;
+    }
+
+    .modal {
+      opacity: 0;
+    }
+
+    .dropdown-menu {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .form-group--select .options {
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    @media screen and (max-width: 991px) {
+
+      .header nav {
+        transform: translate3d(100%, 0, 0);
+        visibility: hidden;
+      }
+
+      /*header mega menu */
+      .header.header-mega-menu nav {
+        transform: translate3d(100%, 0, 0);
+        visibility: hidden;
+      }
+    }
+  </style>
+<link href="main.css" rel="stylesheet"></head><!-- End head -->
+
+<!-- Body Modifications -->
+<!-- fixed header: header position: fixed -->
+
+<body class="">
+  <!-- Start site wrapper -->
+  <div class="site-wrapper">
+
+    <!-- Start header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="logo hide-pc">
+                    <a href="sitemap.html">
+                        <svg>
+                            <use xlink:href="#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+                <menu>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a class="" href="">Our Services</a>
+                            </li>
+                            <li>
+                                <a href="">Your Benefits</a>
+                            </li>
+                            <li class="logo">
+                                <a href="sitemap.html">
+                                    <svg>
+                                        <use xlink:href="#logo"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Easy Start</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg>
+                                        <use xlink:href="#icon-header-arrow"></use>
+                                    </svg>
+                                    Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="social">
+                            <a href="#" class="social__item">
+                                <svg>
+                                    <use xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="social__item">
+                                <svg>
+                                    <use xlink:href="#icon-instagram"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="social__item">
+                                <svg>
+                                    <use xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </div>                </nav>
+    
+                    <div class="burger hidden-on-desktop">
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                    </div>
+                </menu>
+            </div>
+        </div>
+    </header>    <!-- End header -->
+
+
+    <!--Start page-->
+    <div class="page-wrapper">
+
+      <!-- Start introduction -->
+      <!-- Start introduction section -->
+      <section class="section introduction ">
+        <div class="introduction__bg">
+            <img src="img/intro-bg-1-min.jpg" alt="">
+      
+          <svg width="1920" height="972" viewBox="0 0 1920 972" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M434 530.986C556.5 328.986 979 248.986 1266.5 500.486" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <path d="M964.5 252.986C702.5 -7.51377 135.999 260.486 42.4989 539.486" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <path d="M771.999 595.986C848.999 359.486 1504.5 289.986 1728 569.986" stroke="url(#paint2_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <path d="M1881 664.986C1759 224.986 1122 62.4861 966 250.487" stroke="url(#paint3_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <path d="M1532.5 506.986C1428.5 287.486 1143.5 104.986 964.499 247.486" stroke="url(#paint4_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <path d="M315.999 401.986C362.499 234.486 821.999 109.486 956.999 253.986" stroke="url(#paint5_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <path d="M632.5 411.986C603 333.486 784 167.486 960.999 253.987" stroke="url(#paint6_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
+          <circle opacity="0.4" r="33" transform="matrix(-1 0 0 1 630.5 437.986)" stroke="white"/>
+          <circle opacity="0.7" r="27" transform="matrix(-1 0 0 1 630.5 437.986)" stroke="white"/>
+          <g filter="url(#filter0_f)">
+          <circle r="17.5" transform="matrix(-1 0 0 1 630.5 437.986)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="33" transform="matrix(-1 0 0 1 1283.5 525.986)" stroke="white"/>
+          <circle opacity="0.7" r="27" transform="matrix(-1 0 0 1 1283.5 525.986)" stroke="white"/>
+          <g filter="url(#filter1_f)">
+          <circle r="17.5" transform="matrix(-1 0 0 1 1283.5 525.986)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="25.5" transform="matrix(-1 0 0 1 426 549.486)" stroke="white"/>
+          <circle opacity="0.7" r="20.5" transform="matrix(-1 0 0 1 426 549.486)" stroke="white"/>
+          <g filter="url(#filter2_f)">
+          <circle r="13" transform="matrix(-1 0 0 1 426 549.486)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="36.5" transform="matrix(-1 0 0 1 770 628.486)" stroke="white"/>
+          <circle opacity="0.7" r="29.3387" transform="matrix(-1 0 0 1 770 628.486)" stroke="white"/>
+          <g filter="url(#filter3_f)">
+          <circle r="20.2903" transform="matrix(-1 0 0 1 770 628.486)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="26" transform="matrix(-1 0 0 1 1540.5 531.986)" stroke="white"/>
+          <circle opacity="0.7" r="20.871" transform="matrix(-1 0 0 1 1540.5 531.986)" stroke="white"/>
+          <g filter="url(#filter4_f)">
+          <circle r="14.5323" transform="matrix(-1 0 0 1 1540.5 531.986)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="22" transform="matrix(-1 0 0 1 1881.5 682.986)" stroke="white"/>
+          <circle opacity="0.7" r="17.6452" transform="matrix(-1 0 0 1 1881.5 682.986)" stroke="white"/>
+          <g filter="url(#filter5_f)">
+          <circle r="12.3387" transform="matrix(-1 0 0 1 1881.5 682.986)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="19" transform="matrix(-1 0 0 1 36.5 555.986)" stroke="white"/>
+          <circle opacity="0.7" r="15.2258" transform="matrix(-1 0 0 1 36.4998 555.986)" stroke="white"/>
+          <g filter="url(#filter6_f)">
+          <circle r="10.6935" transform="matrix(-1 0 0 1 36.4998 555.986)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="33.5" transform="matrix(-1 0 0 1 317 431.486)" stroke="white"/>
+          <circle opacity="0.7" r="26.9194" transform="matrix(-1 0 0 1 317 431.486)" stroke="white"/>
+          <g filter="url(#filter7_f)">
+          <circle r="18.6452" transform="matrix(-1 0 0 1 317 431.486)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="46" transform="matrix(-1 0 0 1 958.5 250.49)" stroke="white"/>
+          <circle opacity="0.7" r="37" transform="matrix(-1 0 0 1 958.5 250.49)" stroke="white"/>
+          <g filter="url(#filter8_f)">
+          <circle r="25.5" transform="matrix(-1 0 0 1 958.5 250.49)" fill="white"/>
+          </g>
+          <circle opacity="0.4" r="36.5" transform="matrix(-1 0 0 1 1732 574.486)" stroke="white"/>
+          <circle opacity="0.7" r="29.3387" transform="matrix(-1 0 0 1 1732 574.486)" stroke="white"/>
+          <g filter="url(#filter9_f)">
+          <circle r="20.2903" transform="matrix(-1 0 0 1 1732 574.486)" fill="white"/>
+          </g>
+          <defs>
+          <filter id="filter0_f" x="583" y="390.486" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter1_f" x="1236" y="478.486" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter2_f" x="393" y="516.486" width="66" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter3_f" x="729.71" y="588.196" width="80.5806" height="80.5806" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter4_f" x="1508.97" y="500.454" width="63.0645" height="63.0645" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="8.5" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter5_f" x="1852.16" y="653.648" width="58.6774" height="58.6774" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="8.5" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter6_f" x="5.80615" y="525.293" width="61.3871" height="61.3871" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter7_f" x="278.354" y="392.841" width="77.2903" height="77.2903" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter8_f" x="903" y="194.99" width="111" height="111" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur"/>
+          </filter>
+          <filter id="filter9_f" x="1691.71" y="534.196" width="80.5806" height="80.5806" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+          </filter>
+          <linearGradient id="paint0_linear" x1="1272" y1="454.486" x2="399.49" y2="480.761" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear" x1="-44.001" y1="213.486" x2="965.021" y2="214.664" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="paint2_linear" x1="871.999" y1="448.486" x2="1742.83" y2="511.23" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="paint3_linear" x1="1886" y1="604.486" x2="973.841" y2="247.5" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="paint4_linear" x1="1539" y1="391.986" x2="964.849" y2="276.696" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="paint5_linear" x1="343.499" y1="348.986" x2="928.062" y2="238.39" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="paint6_linear" x1="645" y1="398.486" x2="926.663" y2="255.74" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4B73"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </linearGradient>
+          </defs>
+          </svg>
+      
+        </div>
+      
+        <div class="wrap">
+          <div class="i-slider-nav">
+            <span class="current">
+              00
+            </span>
+            <div class="i-slider-dots">
+              <!-- Amount of button need to be equal amount of slide -->
+              <button></button>
+              <button></button>
+              <button></button>
+            </div>
+            <span class="amount">
+              99
+            </span>
+          </div>
+          <div class="introduction-slider">
+            <div class="introduction-slider__item">
+                <div class="content">
+            
+                    <h1 class="title title--center">Win over the competition with <span>
+                            our business-evolving technological solutions
+                        </span>
+                    </h1>
+            
+                    <p>We give your business a technologically different perspective to stay ahead</p>
+            
+                    <a href="#" class="btn btn--accent">
+                            <svg>
+                                <use xlink:href="#icon-header-arrow"></use>
+                            </svg>Speak to an Expert Now!
+                    </a>
+                </div>
+            </div>
+            <div class="introduction-slider__item">
+                <div class="content">
+            
+                    <h1 class="title title--center">Win over the competition with <span>
+                            our business-evolving technological solutions
+                        </span>
+                    </h1>
+            
+                    <p>We give your business a technologically different perspective to stay ahead</p>
+            
+                    <a href="#" class="btn btn--accent">
+                            <svg>
+                                <use xlink:href="#icon-header-arrow"></use>
+                            </svg>Speak to an Expert Now!
+                    </a>
+                </div>
+            </div>
+            <div class="introduction-slider__item">
+                <div class="content">
+            
+                    <h1 class="title title--center">Win over the competition with <span>
+                            our business-evolving technological solutions
+                        </span>
+                    </h1>
+            
+                    <p>We give your business a technologically different perspective to stay ahead</p>
+            
+                    <a href="#" class="btn btn--accent">
+                            <svg>
+                                <use xlink:href="#icon-header-arrow"></use>
+                            </svg>Speak to an Expert Now!
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+      <!-- End introduction section -->      <!-- End introduction -->
+
+      <!-- Start news -->
+      <!-- Start news section -->
+      <section class="section news bg-gradient t-skew" id="news">
+        <div class="skew-bg-white skew-bg-white--gray"></div>
+        <div class="news-container js-padding-left">
+      
+          <div class="news__descr">
+      
+            <h6 class="title-sup">Whats new</h6>
+            <h2 class="title"><span>Blog</span></h2>
+      
+            <p>
+              Your one-stop for every digital insight! Discover what’s new and innovative in the digital world.
+            </p>
+            <a href="#" class="btn btn--accent">
+              <span>
+                <svg>
+                  <use xlink:href="#icon-header-arrow"></use>
+                </svg>
+                All Articles
+              </span>
+            </a>
+          </div>
+      
+      
+          <div class="news__slider">
+            <div class="news-slider--wrap">
+              <div class="news-slider">
+                <div class="news-item">
+                  <div class="news-item-inner">
+                    <div class="news-item__picture">
+                      <img src="img/news-1-min.jpg" alt="">
+                    </div>
+                    <h6 class="news-item__title">
+                      In eos blandit molestie patrioque, corpora accumsan quo in, possim torquatos disputationi ius in
+                    </h6>
+                    <p> Whether your business requires a tech modernization, specific advice, or ongoing IT management – we have got you
+                      covered</p>
+                    <div class="news-item__date">
+                      <p>Jul 22, 2020</p>
+                    </div>
+                  </div>
+                </div>          <div class="news-item">
+                  <div class="news-item-inner">
+                    <div class="news-item__picture">
+                      <img src="img/news-1-min.jpg" alt="">
+                    </div>
+                    <h6 class="news-item__title">
+                      In eos blandit molestie patrioque, corpora accumsan quo in, possim torquatos disputationi ius in
+                    </h6>
+                    <p> Whether your business requires a tech modernization, specific advice, or ongoing IT management – we have got you
+                      covered</p>
+                    <div class="news-item__date">
+                      <p>Jul 22, 2020</p>
+                    </div>
+                  </div>
+                </div>          <div class="news-item">
+                  <div class="news-item-inner">
+                    <div class="news-item__picture">
+                      <img src="img/news-1-min.jpg" alt="">
+                    </div>
+                    <h6 class="news-item__title">
+                      In eos blandit molestie patrioque, corpora accumsan quo in, possim torquatos disputationi ius in
+                    </h6>
+                    <p> Whether your business requires a tech modernization, specific advice, or ongoing IT management – we have got you
+                      covered</p>
+                    <div class="news-item__date">
+                      <p>Jul 22, 2020</p>
+                    </div>
+                  </div>
+                </div>          <div class="news-item">
+                  <div class="news-item-inner">
+                    <div class="news-item__picture">
+                      <img src="img/news-1-min.jpg" alt="">
+                    </div>
+                    <h6 class="news-item__title">
+                      In eos blandit molestie patrioque, corpora accumsan quo in, possim torquatos disputationi ius in
+                    </h6>
+                    <p> Whether your business requires a tech modernization, specific advice, or ongoing IT management – we have got you
+                      covered</p>
+                    <div class="news-item__date">
+                      <p>Jul 22, 2020</p>
+                    </div>
+                  </div>
+                </div>        </div>
+      
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <!-- End news section -->      <!-- End news -->
+
+    </div>
+    <!--End page-->
+
+    <!-- Start footer -->
+    <!-- Start name section -->
+    <div class="footer-dark-blue">
+    
+      <section class="section questions" id="questions">
+        <div class="container">
+          <div class="inner">
+    
+            <div class="questions__contact">
+              <p>Jewellery & Gemplex Building #3 <br> JLT <br> PO Box 113067 <br> Dubai <br> United Arab Emirates </p>
+              <div class="q-contact-row">
+                <a href="tel:+971(0)45513025">+971 (0)4 551 3025</a>
+                <a href="#">
+                  <svg>
+                    <use xlink:href="#icon-twitter"></use>
+                  </svg></a>
+                <a href="#">
+                  <svg>
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg></a>
+                <a href="#">
+                  <svg>
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg></a>
+              </div>
+            </div>
+    
+            <div class="questions__descr">
+    
+              <h6 class="title-sup"> Your questions</h6>
+              <h2 class="title"><span>News & Press</span> </h2>
+              <p>If you have any concerns and questions about our work here, <span> dial our contact number or leave us a
+                  mail,</span> we will be glad to help you out.</p>
+    
+            </div>
+    
+            <div class="questions__subscribe">
+              <form action="" class="form">
+                <div class="form__row">
+                  <div class="form-group--input">
+                    <input type="email" name="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form__row form-group--btn">
+                  <label for="" class="btn btn--accent">
+                    <input type="submit" hidden />
+                    <span>
+                      <svg>
+                        <use xlink:href="#icon-header-arrow"></use>
+                      </svg>
+                      Send
+                    </span>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+      <!-- End name section -->
+    
+      <footer class="footer">
+        <div class="container">
+          <div class="inner">
+            <nav>
+              <ul>
+                <li><a href="#text-img" class="scroll-to">Treeix Solutions</a></li>
+                <li><a href="#services" class="scroll-to">Our Services</a></li>
+                <li><a href="#benefits" class="scroll-to">Your Benefits</a></li>
+                <li><a href="#why-treeix" class="scroll-to">About Treeix</a></li>
+                <li><a href="#easy" class="scroll-to">Easy Start</a></li>
+                <li><a href="#contact-us" class="scroll-to">Contact Us</a></li>
+                <li class="footer-page scroll-to"><a href="#">Terms & Conditions</a></li>
+              </ul>
+    
+              <p>© 2020 TREEIX. All rights reserved</p>
+    
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>    <!-- End footer -->
+
+  </div>
+  <!-- End site wrapper -->
+<script type="text/javascript" src="bundle.js"></script><script type="text/javascript" src="svgsprite.js"></script></body>
+
+</html>
