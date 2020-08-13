@@ -4,7 +4,7 @@
 <!-- Start head -->
 <head>
   <meta charset="utf-8" />
-  <title>Front-end</title>
+  <title>Treeix</title>
 
   <!-- SEO meta tags -->
   <!-- <meta property="og:url" content="url" />
@@ -22,8 +22,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Template Basic Images Start -->
-  <link rel="icon" href="img/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
   <!-- Template Basic Images End -->
 
   <!-- Custom Browsers Color Start -->
@@ -47,6 +50,10 @@
 
     .form-group--select .options {
       visibility: hidden;
+      opacity: 0;
+    }
+
+    .aside-navigation__link span{ 
       opacity: 0;
     }
 
@@ -75,68 +82,84 @@
 
     <!-- Start header -->
     <header class="header">
-        <div class="container">
-            <div class="header__row">
-                <div class="logo hide-pc">
-                    <a href="sitemap.html">
-                        <svg>
-                            <use xlink:href="#logo"></use>
-                        </svg>
-                    </a>
-                </div>
-                <menu>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a class="" href="">Our Services</a>
-                            </li>
-                            <li>
-                                <a href="">Your Benefits</a>
-                            </li>
-                            <li class="logo">
-                                <a href="sitemap.html">
-                                    <svg>
-                                        <use xlink:href="#logo"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">Easy Start</a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="#icon-header-arrow"></use>
-                                    </svg>
-                                    Contact Us</a>
-                            </li>
-                        </ul>
-                        <div class="social">
-                            <a href="#" class="social__item">
-                                <svg>
-                                    <use xlink:href="#icon-twitter"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social__item">
-                                <svg>
-                                    <use xlink:href="#icon-instagram"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social__item">
-                                <svg>
-                                    <use xlink:href="#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </div>                </nav>
+      <div class="container">
+        <div class="header__row">
+          <div class="logo hide-pc">
+            <a href="sitemap.html">
+              <svg>
+                <use xlink:href="#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <menu>
+            <nav>
+              <ul>
+                <li>
+                  <a class="scroll-to" href="#text-img">Treeix Solutions</a>
+                </li>
+                <li>
+                  <a href="#services" class="scroll-to"> Our Services</a>
+                </li>
+                <li>
+                  <a href="#benefits" class="scroll-to"> Your Benefits</a>
+                </li>
+                <li class="logo">
+                  <a href="sitemap.html">
+                    <svg>
+                      <use xlink:href="#logo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#why-treeix" class="scroll-to">About Treeix</a><span class="accordion-arrow"><svg>
+                      <use xlink:href="#icon-select-arrow"></use>
+                    </svg></span>
+                  <ul class="dropdown-menu">
+                    <li><span>Our Partners</span></li>
+                    <li><a href="#"> Duo Duo Security</a></li>
+                    <li><a href="#"> Duo Duo Security</a></li>
+                    <li><a href="#"> Duo Security Security</a></li>
+                    <li><a href="#">Security Duo Security</a></li>
+                  </ul>
     
-                    <div class="burger hidden-on-desktop">
-                        <span>&nbsp;</span>
-                        <span>&nbsp;</span>
-                        <span>&nbsp;</span>
-                    </div>
-                </menu>
+                </li>
+                <li>
+                  <a href="#easy" class="scroll-to">Easy Start</a>
+                </li>
+                <li>
+                  <a href="#contact-us" class="scroll-to">
+                    <svg>
+                      <use xlink:href="#icon-header-arrow"></use>
+                    </svg>
+                    Contact Us</a>
+                </li>
+              </ul>
+              <div class="social ">
+                <a href="#" class="social__item">
+                  <svg>
+                    <use xlink:href="#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a href="#" class="social__item">
+                  <svg>
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="#" class="social__item">
+                  <svg>
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                </a>
+              </div>        </nav>
+    
+            <div class="burger hidden-on-desktop">
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
             </div>
+          </menu>
         </div>
+      </div>
     </header>    <!-- End header -->
 
 
@@ -148,146 +171,183 @@
           <img src="img/cloud-min.png" alt="">
         </div>
       </div>
+      <!-- Start social links -->
+      <div class="container social--fixed">
+        <div class="social ">
+          <a href="#" class="social__item">
+            <svg>
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+          <a href="#" class="social__item">
+            <svg>
+              <use xlink:href="#icon-instagram"></use>
+            </svg>
+          </a>
+          <a href="#" class="social__item">
+            <svg>
+              <use xlink:href="#icon-facebook"></use>
+            </svg>
+          </a>
+        </div>      </div>
+      <!-- End social links -->
+
+      <!-- Start aside navigation -->
+      <ul class="aside-navigation">
+        <li data-text="11111" class="aside-navigation__link"> <a href="#introduction" class="scroll-to"></a></li>
+        <li data-text="2222" class="aside-navigation__link"><a href="#tree" class="scroll-to"></a><span>About TREEIX</span></li>
+        <li data-text="3333" class="aside-navigation__link"><a href="#text-img" class="scroll-to"></a><span>Treeix Solutions</span></li>
+        <li data-text="4444" class="aside-navigation__link"><a href="#services" class="scroll-to"></a><span> Our Services</span></li>
+        <li data-text="4444" class="aside-navigation__link"><a href="#benefits" class="scroll-to"></a><span>Your Benefits </span></li>
+      
+        <li data-text="11111" class="aside-navigation__link"><a href="#reasons" class="scroll-to"></a><span>Your Reasons</span></li>
+        <li data-text="2222" class="aside-navigation__link"><a href="#why-treeix" class="scroll-to"></a><span>Why Treeix</span></li>
+        <li data-text="3333" class="aside-navigation__link"><a href="#easy" class="scroll-to"></a><span>Easy Start</span></li>
+        <li data-text="4444" class="aside-navigation__link"><a href="#contact-us" class="scroll-to"></a><span>Contact Us</span></li>
+        <li data-text="4444" class="aside-navigation__link"><a href="#news" class="scroll-to"></a><span>Whats new </span></li>
+      
+      </ul>      <!-- End aside navigation -->
+
       <!-- Start introduction -->
       <!-- Start introduction section -->
-      <section class="section introduction intro-bottom-after">
+      <section class="section introduction intro-bottom-after" id="introduction">
         <div class="introduction__bg">
             <img src="img/intro-bg-1-min.jpg" alt="">
       
-          <svg width="1920" height="972" viewBox="0 0 1920 972" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M434 530.986C556.5 328.986 979 248.986 1266.5 500.486" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <path d="M964.5 252.986C702.5 -7.51377 135.999 260.486 42.4989 539.486" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <path d="M771.999 595.986C848.999 359.486 1504.5 289.986 1728 569.986" stroke="url(#paint2_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <path d="M1881 664.986C1759 224.986 1122 62.4861 966 250.487" stroke="url(#paint3_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <path d="M1532.5 506.986C1428.5 287.486 1143.5 104.986 964.499 247.486" stroke="url(#paint4_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <path d="M315.999 401.986C362.499 234.486 821.999 109.486 956.999 253.986" stroke="url(#paint5_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <path d="M632.5 411.986C603 333.486 784 167.486 960.999 253.987" stroke="url(#paint6_linear)" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 6"/>
-          <circle opacity="0.4" r="33" transform="matrix(-1 0 0 1 630.5 437.986)" stroke="white"/>
-          <circle opacity="0.7" r="27" transform="matrix(-1 0 0 1 630.5 437.986)" stroke="white"/>
+          <svg class="line-drawing-demo" preserveAspectRatio="none" width="1920" height="975" viewBox="0 0 1920 975" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle opacity="0.4" r="33" transform="matrix(-1 0 0 1 631.5 430.5)" stroke="white"/>
+          <circle opacity="0.7" r="27" transform="matrix(-1 0 0 1 631.5 430.5)" stroke="white"/>
           <g filter="url(#filter0_f)">
-          <circle r="17.5" transform="matrix(-1 0 0 1 630.5 437.986)" fill="white"/>
+          <circle r="17.5" transform="matrix(-1 0 0 1 631.5 430.5)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="33" transform="matrix(-1 0 0 1 1283.5 525.986)" stroke="white"/>
-          <circle opacity="0.7" r="27" transform="matrix(-1 0 0 1 1283.5 525.986)" stroke="white"/>
+          <circle opacity="0.4" r="33" transform="matrix(-1 0 0 1 1284.5 518.5)" stroke="white"/>
+          <circle opacity="0.7" r="27" transform="matrix(-1 0 0 1 1284.5 518.5)" stroke="white"/>
           <g filter="url(#filter1_f)">
-          <circle r="17.5" transform="matrix(-1 0 0 1 1283.5 525.986)" fill="white"/>
+          <circle r="17.5" transform="matrix(-1 0 0 1 1284.5 518.5)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="25.5" transform="matrix(-1 0 0 1 426 549.486)" stroke="white"/>
-          <circle opacity="0.7" r="20.5" transform="matrix(-1 0 0 1 426 549.486)" stroke="white"/>
+          <circle opacity="0.4" r="25.5" transform="matrix(-1 0 0 1 427 542)" stroke="white"/>
+          <circle opacity="0.7" r="20.5" transform="matrix(-1 0 0 1 427 542)" stroke="white"/>
           <g filter="url(#filter2_f)">
-          <circle r="13" transform="matrix(-1 0 0 1 426 549.486)" fill="white"/>
+          <circle r="13" transform="matrix(-1 0 0 1 427 542)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="36.5" transform="matrix(-1 0 0 1 770 628.486)" stroke="white"/>
-          <circle opacity="0.7" r="29.3387" transform="matrix(-1 0 0 1 770 628.486)" stroke="white"/>
+          <circle opacity="0.4" r="36.5" transform="matrix(-1 0 0 1 771 621)" stroke="white"/>
+          <circle opacity="0.7" r="29.3387" transform="matrix(-1 0 0 1 771 621)" stroke="white"/>
           <g filter="url(#filter3_f)">
-          <circle r="20.2903" transform="matrix(-1 0 0 1 770 628.486)" fill="white"/>
+          <circle r="20.2903" transform="matrix(-1 0 0 1 771 621)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="26" transform="matrix(-1 0 0 1 1540.5 531.986)" stroke="white"/>
-          <circle opacity="0.7" r="20.871" transform="matrix(-1 0 0 1 1540.5 531.986)" stroke="white"/>
+          <circle opacity="0.4" r="26" transform="matrix(-1 0 0 1 1541.5 524.5)" stroke="white"/>
+          <circle opacity="0.7" r="20.871" transform="matrix(-1 0 0 1 1541.5 524.5)" stroke="white"/>
           <g filter="url(#filter4_f)">
-          <circle r="14.5323" transform="matrix(-1 0 0 1 1540.5 531.986)" fill="white"/>
+          <circle r="14.5323" transform="matrix(-1 0 0 1 1541.5 524.5)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="22" transform="matrix(-1 0 0 1 1881.5 682.986)" stroke="white"/>
-          <circle opacity="0.7" r="17.6452" transform="matrix(-1 0 0 1 1881.5 682.986)" stroke="white"/>
+          <circle opacity="0.4" r="22" transform="matrix(-1 0 0 1 1882.5 675.5)" stroke="white"/>
+          <circle opacity="0.7" r="17.6452" transform="matrix(-1 0 0 1 1882.5 675.5)" stroke="white"/>
           <g filter="url(#filter5_f)">
-          <circle r="12.3387" transform="matrix(-1 0 0 1 1881.5 682.986)" fill="white"/>
+          <circle r="12.3387" transform="matrix(-1 0 0 1 1882.5 675.5)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="19" transform="matrix(-1 0 0 1 36.5 555.986)" stroke="white"/>
-          <circle opacity="0.7" r="15.2258" transform="matrix(-1 0 0 1 36.4998 555.986)" stroke="white"/>
+          <circle opacity="0.4" r="19" transform="matrix(-1 0 0 1 37.5 548.5)" stroke="white"/>
+          <circle opacity="0.7" r="15.2258" transform="matrix(-1 0 0 1 37.4998 548.5)" stroke="white"/>
           <g filter="url(#filter6_f)">
-          <circle r="10.6935" transform="matrix(-1 0 0 1 36.4998 555.986)" fill="white"/>
+          <circle r="10.6935" transform="matrix(-1 0 0 1 37.4998 548.5)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="33.5" transform="matrix(-1 0 0 1 317 431.486)" stroke="white"/>
-          <circle opacity="0.7" r="26.9194" transform="matrix(-1 0 0 1 317 431.486)" stroke="white"/>
+          <circle opacity="0.4" r="33.5" transform="matrix(-1 0 0 1 318 424)" stroke="white"/>
+          <circle opacity="0.7" r="26.9194" transform="matrix(-1 0 0 1 318 424)" stroke="white"/>
           <g filter="url(#filter7_f)">
-          <circle r="18.6452" transform="matrix(-1 0 0 1 317 431.486)" fill="white"/>
+          <circle r="18.6452" transform="matrix(-1 0 0 1 317.999 424)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="46" transform="matrix(-1 0 0 1 958.5 250.49)" stroke="white"/>
-          <circle opacity="0.7" r="37" transform="matrix(-1 0 0 1 958.5 250.49)" stroke="white"/>
+          <circle opacity="0.4" r="46" transform="matrix(-1 0 0 1 964.5 243.004)" stroke="white"/>
+          <circle opacity="0.7" r="37" transform="matrix(-1 0 0 1 964.5 243.004)" stroke="white"/>
           <g filter="url(#filter8_f)">
-          <circle r="25.5" transform="matrix(-1 0 0 1 958.5 250.49)" fill="white"/>
+          <circle r="25.5" transform="matrix(-1 0 0 1 964.5 243.004)" fill="white"/>
           </g>
-          <circle opacity="0.4" r="36.5" transform="matrix(-1 0 0 1 1732 574.486)" stroke="white"/>
-          <circle opacity="0.7" r="29.3387" transform="matrix(-1 0 0 1 1732 574.486)" stroke="white"/>
+          <circle opacity="0.4" r="36.5" transform="matrix(-1 0 0 1 1733 567)" stroke="white"/>
+          <circle opacity="0.7" r="29.3387" transform="matrix(-1 0 0 1 1733 567)" stroke="white"/>
           <g filter="url(#filter9_f)">
-          <circle r="20.2903" transform="matrix(-1 0 0 1 1732 574.486)" fill="white"/>
+          <circle r="20.2903" transform="matrix(-1 0 0 1 1733 567)" fill="white"/>
           </g>
+          <path d="M928.5 214C734.5 51 134.5 169.5 43 530" stroke="url(#paint0_linear)" stroke-width="2"/>
+          <path d="M1265.5 491.5C1023 267.5 572.5 289 439.5 519" stroke="url(#paint1_linear)" stroke-width="2"/>
+          <path d="M1004 216.5C1183 125 1434.5 287 1530 501" stroke="url(#paint2_linear)" stroke-width="2"/>
+          <path d="M999.5 212.5C1132 102 1727 162.5 1881.5 653" stroke="url(#paint3_linear)" stroke-width="2"/>
+          <path d="M1709 538.5C1413 264 870.5 359.5 778 584.5" stroke="url(#paint4_linear)" stroke-width="2"/>
+          <path d="M919 231C807.5 193 628 273.5 633 396.5" stroke="url(#paint5_linear)" stroke-width="2"/>
+          <path d="M923.5 219C797.5 137.5 387.5 204.5 321 390" stroke="url(#paint6_linear)" stroke-width="2"/>
           <defs>
-          <filter id="filter0_f" x="583" y="390.486" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter0_f" x="584" y="383" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter1_f" x="1236" y="478.486" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter1_f" x="1237" y="471" width="95" height="95" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter2_f" x="393" y="516.486" width="66" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter2_f" x="394" y="509" width="66" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter3_f" x="729.71" y="588.196" width="80.5806" height="80.5806" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter3_f" x="730.709" y="580.71" width="80.5806" height="80.5806" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter4_f" x="1508.97" y="500.454" width="63.0645" height="63.0645" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter4_f" x="1509.97" y="492.968" width="63.0645" height="63.0645" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="8.5" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter5_f" x="1852.16" y="653.648" width="58.6774" height="58.6774" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter5_f" x="1853.16" y="646.161" width="58.6774" height="58.6774" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="8.5" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter6_f" x="5.80615" y="525.293" width="61.3871" height="61.3871" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter6_f" x="6.80664" y="517.807" width="61.3871" height="61.3871" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter7_f" x="278.354" y="392.841" width="77.2903" height="77.2903" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter7_f" x="279.354" y="385.355" width="77.2903" height="77.2903" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter8_f" x="903" y="194.99" width="111" height="111" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter8_f" x="909" y="187.504" width="111" height="111" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur"/>
           </filter>
-          <filter id="filter9_f" x="1691.71" y="534.196" width="80.5806" height="80.5806" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <filter id="filter9_f" x="1692.71" y="526.71" width="80.5806" height="80.5806" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
           <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
           <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
           </filter>
-          <linearGradient id="paint0_linear" x1="1272" y1="454.486" x2="399.49" y2="480.761" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint0_linear" x1="51" y1="521.5" x2="940.493" y2="296.506" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
-          <linearGradient id="paint1_linear" x1="-44.001" y1="213.486" x2="965.021" y2="214.664" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint1_linear" x1="1270.01" y1="496.295" x2="766.591" y2="22.381" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
-          <linearGradient id="paint2_linear" x1="871.999" y1="448.486" x2="1742.83" y2="511.23" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint2_linear" x1="1532.87" y1="462.775" x2="966.5" y2="232.5" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
-          <linearGradient id="paint3_linear" x1="1886" y1="604.486" x2="973.841" y2="247.5" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint3_linear" x1="1886.32" y1="593.003" x2="1000.57" y2="256.051" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
-          <linearGradient id="paint4_linear" x1="1539" y1="391.986" x2="964.849" y2="276.696" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint4_linear" x1="1714.09" y1="558.165" x2="1131.43" y2="25.1479" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
-          <linearGradient id="paint5_linear" x1="343.499" y1="348.986" x2="928.062" y2="238.39" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint5_linear" x1="653.5" y1="400" x2="899.776" y2="198.504" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
-          <linearGradient id="paint6_linear" x1="645" y1="398.486" x2="926.663" y2="255.74" gradientUnits="userSpaceOnUse">
+          <linearGradient id="paint6_linear" x1="336" y1="401" x2="928.332" y2="418.7" gradientUnits="userSpaceOnUse">
           <stop stop-color="#1B4B73"/>
           <stop offset="1" stop-color="white" stop-opacity="0"/>
           </linearGradient>
@@ -303,6 +363,7 @@
             </span>
             <div class="i-slider-dots">
               <!-- Amount of button need to be equal amount of slide -->
+              <button></button>
               <button></button>
               <button></button>
               <button></button>
@@ -322,7 +383,25 @@
             
                     <p>We give your business a technologically different perspective to stay ahead</p>
             
-                    <a href="#" class="btn btn--accent">
+                    <a href="#modal-form" class="btn btn--accent modal-open-js">
+                            <svg>
+                                <use xlink:href="#icon-header-arrow"></use>
+                            </svg>Speak to an Expert Now!
+                    </a>
+                </div>
+            </div>
+            
+            <div class="introduction-slider__item">
+                <div class="content">
+            
+                    <h1 class="title title--center">Win over the competition with <span>
+                            our business-evolving technological solutions
+                        </span>
+                    </h1>
+            
+                    <p>We give your business a technologically different perspective to stay ahead</p>
+            
+                    <a href="#modal-thanks" class="btn btn--accent modal-open-js">
                             <svg>
                                 <use xlink:href="#icon-header-arrow"></use>
                             </svg>Speak to an Expert Now!
@@ -339,13 +418,14 @@
             
                     <p>We give your business a technologically different perspective to stay ahead</p>
             
-                    <a href="#" class="btn btn--accent">
+                    <a href="#modal-form" class="btn btn--accent modal-open-js">
                             <svg>
                                 <use xlink:href="#icon-header-arrow"></use>
                             </svg>Speak to an Expert Now!
                     </a>
                 </div>
             </div>
+            
             <div class="introduction-slider__item">
                 <div class="content">
             
@@ -356,7 +436,7 @@
             
                     <p>We give your business a technologically different perspective to stay ahead</p>
             
-                    <a href="#" class="btn btn--accent">
+                    <a href="#modal-thanks" class="btn btn--accent modal-open-js">
                             <svg>
                                 <use xlink:href="#icon-header-arrow"></use>
                             </svg>Speak to an Expert Now!
@@ -373,7 +453,7 @@
       <!-- Start tree section -->
       <section class="section tree t-skew" id="tree">
         <div class="skew-bg-white skew-bg-white--transform-right"></div>
-       <div class="container">
+        <div class="container">
       
           <h2 class="title title--center">
             Is your business ready for <span> the next big technological revolution?</span>
@@ -387,9 +467,7 @@
               </p>
             </div>
             <div class="tree__right branch">
-              <p>We offer you solutions tailored to your IT needs, helping you <b> write success stories of your
-                  own.</b> 
-              </p>
+              <img src="img/partner-logo-min.png" alt="">
             </div>
           </div>
       
@@ -469,7 +547,7 @@
               <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-15"></use>
+                      <use xlink:href="#icon-1"></use>
                     </svg>
               
                   <p>
@@ -503,7 +581,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-4"></use>
+                      <use xlink:href="#icon-3"></use>
                     </svg>
               
                   <p>
@@ -520,7 +598,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-5"></use>
+                      <use xlink:href="#icon-4"></use>
                     </svg>
               
                   <p>
@@ -537,7 +615,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-6"></use>
+                      <use xlink:href="#icon-5"></use>
                     </svg>
               
                   <p>
@@ -554,7 +632,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-7"></use>
+                      <use xlink:href="#icon-6"></use>
                     </svg>
               
                   <p>
@@ -571,7 +649,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-8"></use>
+                      <use xlink:href="#icon-7"></use>
                     </svg>
               
                   <p>
@@ -588,7 +666,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-1"></use>
+                      <use xlink:href="#icon-8"></use>
                     </svg>
               
                   <p>
@@ -622,7 +700,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-3"></use>
+                      <use xlink:href="#icon-10"></use>
                     </svg>
               
                   <p>
@@ -639,7 +717,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-10"></use>
+                      <use xlink:href="#icon-11"></use>
                     </svg>
               
                   <p>
@@ -690,7 +768,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-11"></use>
+                      <use xlink:href="#icon-14"></use>
                     </svg>
               
                   <p>
@@ -707,7 +785,7 @@
               </a>        <a href="#" class="service-card">
                 <div class="service-card-inner">
                     <svg class="service-card__picture">
-                      <use xlink:href="#icon-14"></use>
+                      <use xlink:href="#icon-15"></use>
                     </svg>
               
                   <p>
@@ -973,7 +1051,7 @@
                   </div> </div>
             </div>
             <div class="slider-progress-bar">
-              <svg width="275" height="auto" viewBox="0 0 275 546" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="275" height="100%" viewBox="0 0 275 546" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M3.38009 544C152.661 544 273.676 422.669 273.676 273C273.676 123.331 152.661 2 3.38009 2L3.37988 2.00096" stroke="#90A3B2" stroke-width="2"/>
               <path class="path" d="M2.38009 544C151.661 544 272.676 422.669 272.676 273C272.676 123.331 151.661 2 2.38009 2L2.37988 2.00096" stroke="#6EBF50" stroke-width="4"/>
               </svg>
@@ -1091,86 +1169,87 @@
       <!-- Start contact-us -->
       <!-- Start contact-us section -->
       <section class="section contact-us t-skew" id="contact-us">
-        <div class="container">
-      
-          <div class="inner">
-            <h6 class="title-sup title--center">
-              Contact Us
-            </h6>
-            <h2 class="title title--center">
-              Begin your journey to <span>success in digital business</span>
-            </h2>
-      
-            <p>
-              Drop us a line or a mail, and our experts will get back to you for an initial discussion
-            </p>
-      
-            <form action="" class="form">
-              <div class="form__row">
-                <div class="form-group--input">
-                  <input type="text" name="name" placeholder="First Name">
-                </div>
-                <div class="form-group--input">
-                  <input type="text" name="last-name" placeholder="Last Name">
-                </div>
-                <div class="form-group--input" data-message="Wrong phone number">
-                  <input type="tel" name="tel" placeholder="Phone" required class="phone-mask" data-number="12">
-                </div>
-                <div class="form-group--input">
-                  <input type="email" name="email" placeholder="Email">
-                </div>
-                <div class="form-group--input">
-                  <input type="text" name="company" placeholder="Company">
-                </div>
-                <div class="form-group--input">
-                  <div class="form-group form-group--select">
-                    <label class="select-label select-label-js">
-                      <input class="input input-value-js" type="text" readonly placeholder="List of Industry (optional)" />
-                  
-                      <!-- Value of this input will be sent to back -->
-                      <input class="input input-key-js" name="select" readonly hidden>
-                  
-                      <span class="select-icon"><svg>
-                          <use xlink:href="#icon-select-arrow"></use>
-                        </svg></span>
-                    </label>
-                  
-                    <ul class="options options-js">
-                      <li class="option option-js" data-key="option 1"> option 1</li>
-                      <li class="option option-js" data-key="option 2"> option 2</li>
-                      <li class="option option-js" data-key="option 3"> option 3</li>
-                      <li class="option option-js" data-key="option 4"> option 4</li>
-                      <li class="option option-js" data-key="option 5"> option 5</li>
-                      <li class="option option-js" data-key="option 6"> option 6</li>
-                    </ul>
-                  </div>          </div>
-              </div>
-              <div class="form__row">
-                <div class="form-group--input">
-                  <textarea name="massage" cols="20" rows="4" placeholder="Your Message to Us"></textarea>
-                </div>
-              </div>
-              <div class="form__row form-group--btn">
-      
-                <a href="#" class="btn btn--accent">
-                  <span>
-                    <svg>
-                      <use xlink:href="#icon-header-arrow"></use>
-                    </svg>
-                    Contact Us
-                  </span>
-                </a>
-              </div>
-            </form>
-          </div>
-      
-          <div class="contact-us__row">
-            <div>
-            </div>
-          </div>
-      
-        </div>
-      </section>
+       
+       <div class="container">
+       
+         <div class="inner">
+           
+           <h6 class="title-sup title--center">
+             Contact Us
+           </h6>
+           <h2 class="title title--center">
+             Begin your journey to <span>success in digital business</span>
+           </h2>
+       
+           <p>
+             Drop us a line or a mail, and our experts will get back to you for an initial discussion
+           </p>
+       
+           <form action="" class="form">
+             <div class="form__row">
+               <div class="form-group--input">
+                 <input type="text" name="name" placeholder="First Name">
+               </div>
+               <div class="form-group--input">
+                 <input type="text" name="last-name" placeholder="Last Name">
+               </div>
+               <div class="form-group--input" data-message="Wrong phone number">
+                 <input type="tel" name="tel" placeholder="Phone" required class="phone-mask" data-number="12">
+               </div>
+               <div class="form-group--input">
+                 <input type="email" name="email" placeholder="Email">
+               </div>
+               <div class="form-group--input">
+                 <input type="text" name="company" placeholder="Company">
+               </div>
+               <div class="form-group--input">
+                 <div class="form-group form-group--select">
+                   <label class="select-label select-label-js">
+                     <input class="input input-value-js" type="text" readonly placeholder="List of Industry (optional)" />
+                 
+                     <!-- Value of this input will be sent to back -->
+                     <input class="input input-key-js" name="select" readonly hidden>
+                 
+                     <span class="select-icon"><svg>
+                         <use xlink:href="#icon-select-arrow"></use>
+                       </svg></span>
+                   </label>
+                 
+                   <ul class="options options-js">
+                     <li class="option option-js" data-key="option 1"> option 1</li>
+                     <li class="option option-js" data-key="option 2"> option 2</li>
+                     <li class="option option-js" data-key="option 3"> option 3</li>
+                     <li class="option option-js" data-key="option 4"> option 4</li>
+                     <li class="option option-js" data-key="option 5"> option 5</li>
+                     <li class="option option-js" data-key="option 6"> option 6</li>
+                   </ul>
+                 </div>        </div>
+             </div>
+             <div class="form__row">
+               <div class="form-group--input">
+                 <textarea name="massage" cols="20" rows="4" placeholder="Your Message to Us"></textarea>
+               </div>
+             </div>
+             <div class="form__row form-group--btn">
+       
+               <a href="#" class="btn btn--accent">
+                 <span>
+                   <svg>
+                     <use xlink:href="#icon-header-arrow"></use>
+                   </svg>
+                   Contact Us
+                 </span>
+               </a>
+             </div>
+           </form>
+         </div>
+       
+         <div class="contact-us__row">
+           <div>
+           </div>
+         </div>
+       
+       </div></section>
       <!-- End contact-us section -->      <!-- End contact-us -->
 
       <!-- Start news -->
@@ -1268,6 +1347,157 @@
       </section>
       <!-- End news section -->      <!-- End news -->
 
+      <!-- Start home modal -->
+      <!-- Class notation: "modal-event-js" class will listen to document.dispatchEvent -->
+      <div id="modal-form" class="modal ">
+        <div class="modal__window" style="background-image: url(img/building-min.png);">
+          <span class="modal__cross modal-close-js">
+            <svg>
+              <use xlink:href="#icon-modal-cross"></use>
+            </svg>
+          </span>
+      
+          <div class="modal__content">
+            <div class="container">
+            
+              <div class="inner">
+                    <h2 class="title title--center">
+                  Begin your journey to <span>success in digital business</span>
+                </h2>
+            
+                <p>
+                  Drop us a line or a mail, and our experts will get back to you for an initial discussion
+                </p>
+            
+                <form action="" class="form">
+                  <div class="form__row">
+                    <div class="form-group--input">
+                      <input type="text" name="name" placeholder="First Name">
+                    </div>
+                    <div class="form-group--input">
+                      <input type="text" name="last-name" placeholder="Last Name">
+                    </div>
+                    <div class="form-group--input" data-message="Wrong phone number">
+                      <input type="tel" name="tel" placeholder="Phone" required class="phone-mask" data-number="12">
+                    </div>
+                    <div class="form-group--input">
+                      <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group--input">
+                      <input type="text" name="company" placeholder="Company">
+                    </div>
+                    <div class="form-group--input">
+                      <div class="form-group form-group--select">
+                        <label class="select-label select-label-js">
+                          <input class="input input-value-js" type="text" readonly placeholder="List of Industry (optional)" />
+                      
+                          <!-- Value of this input will be sent to back -->
+                          <input class="input input-key-js" name="select" readonly hidden>
+                      
+                          <span class="select-icon"><svg>
+                              <use xlink:href="#icon-select-arrow"></use>
+                            </svg></span>
+                        </label>
+                      
+                        <ul class="options options-js">
+                          <li class="option option-js" data-key="option 1"> option 1</li>
+                          <li class="option option-js" data-key="option 2"> option 2</li>
+                          <li class="option option-js" data-key="option 3"> option 3</li>
+                          <li class="option option-js" data-key="option 4"> option 4</li>
+                          <li class="option option-js" data-key="option 5"> option 5</li>
+                          <li class="option option-js" data-key="option 6"> option 6</li>
+                        </ul>
+                      </div>        </div>
+                  </div>
+                  <div class="form__row">
+                    <div class="form-group--input">
+                      <textarea name="massage" cols="20" rows="4" placeholder="Your Message to Us"></textarea>
+                    </div>
+                  </div>
+                  <div class="form__row form-group--btn">
+            
+                    <a href="#" class="btn btn--accent">
+                      <span>
+                        <svg>
+                          <use xlink:href="#icon-header-arrow"></use>
+                        </svg>
+                        Contact Us
+                      </span>
+                    </a>
+                  </div>
+                </form>
+              </div>
+            
+              <div class="contact-us__row">
+                <div>
+                </div>
+              </div>
+            
+            </div>    </div>
+        </div>
+      </div>
+      
+      <!-- Trigger example -->
+      
+      
+      <!-- Open without trigger example -->
+      <!--<script>-->
+      <!--	var submitBtn = document.querySelector('.checkout button');-->
+      
+      <!--	submitBtn && submitBtn.addEventListener('click', function() {-->
+      <!--		document.dispatchEvent(new Event('modal-open#modal-id'));-->
+      <!--	});-->
+      <!--</script>-->
+      
+      <!-- Open without trigger example -->
+      <!--<script>-->
+      <!--	var checkoutForm = document.querySelector('#checkout-form');-->
+      
+      <!--	checkoutForm && checkoutForm.addEventListener('submit', function(event) {-->
+      <!--		event.preventDefault();-->
+      <!--		document.dispatchEvent(new Event('modal-open#modal-id'));-->
+      <!--	});-->
+      <!--</script>-->      <!-- Class notation: "modal-event-js" class will listen to document.dispatchEvent -->
+      <div id="modal-thanks" class="modal modal-thanks">
+        <div class="modal__window" style="background-image: url(img/building-min.png);">
+          <span class="modal__cross modal-close-js">
+            <svg>
+              <use xlink:href="#icon-modal-cross"></use>
+            </svg>
+          </span>
+      
+          <div class="modal__content">
+      
+            <h2 class="title">Thank you!</h2>
+            <p>
+              Your answers have been processed. Our manager will answer you soon.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Trigger example -->
+      
+      
+      <!-- Open without trigger example -->
+      <!--<script>-->
+      <!--	var submitBtn = document.querySelector('.checkout button');-->
+      
+      <!--	submitBtn && submitBtn.addEventListener('click', function() {-->
+      <!--		document.dispatchEvent(new Event('modal-open#modal-id'));-->
+      <!--	});-->
+      <!--</script>-->
+      
+      <!-- Open without trigger example -->
+      <!--<script>-->
+      <!--	var checkoutForm = document.querySelector('#checkout-form');-->
+      
+      <!--	checkoutForm && checkoutForm.addEventListener('submit', function(event) {-->
+      <!--		event.preventDefault();-->
+      <!--		document.dispatchEvent(new Event('modal-open#modal-id'));-->
+      <!--	});-->
+      <!--</script>-->      <!-- End home modal -->
+
     </div>
     <!--End page-->
 
@@ -1275,7 +1505,7 @@
     <!-- Start name section -->
     <div class="footer-dark-blue">
     
-      <section class="section questions" id="questions">
+      <section class=" questions" id="questions">
         <div class="container">
           <div class="inner">
     

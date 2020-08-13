@@ -4,7 +4,7 @@
 <!-- Start head -->
 <head>
   <meta charset="utf-8" />
-  <title>Front-end</title>
+  <title>Treeix</title>
 
   <!-- SEO meta tags -->
   <!-- <meta property="og:url" content="url" />
@@ -22,8 +22,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Template Basic Images Start -->
-  <link rel="icon" href="img/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
   <!-- Template Basic Images End -->
 
   <!-- Custom Browsers Color Start -->
@@ -47,6 +50,10 @@
 
     .form-group--select .options {
       visibility: hidden;
+      opacity: 0;
+    }
+
+    .aside-navigation__link span{ 
       opacity: 0;
     }
 
@@ -75,68 +82,84 @@
 
     <!-- Start header -->
     <header class="header">
-        <div class="container">
-            <div class="header__row">
-                <div class="logo hide-pc">
-                    <a href="sitemap.html">
-                        <svg>
-                            <use xlink:href="#logo"></use>
-                        </svg>
-                    </a>
-                </div>
-                <menu>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a class="" href="">Our Services</a>
-                            </li>
-                            <li>
-                                <a href="">Your Benefits</a>
-                            </li>
-                            <li class="logo">
-                                <a href="sitemap.html">
-                                    <svg>
-                                        <use xlink:href="#logo"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">Easy Start</a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="#icon-header-arrow"></use>
-                                    </svg>
-                                    Contact Us</a>
-                            </li>
-                        </ul>
-                        <div class="social">
-                            <a href="#" class="social__item">
-                                <svg>
-                                    <use xlink:href="#icon-twitter"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social__item">
-                                <svg>
-                                    <use xlink:href="#icon-instagram"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social__item">
-                                <svg>
-                                    <use xlink:href="#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </div>                </nav>
+      <div class="container">
+        <div class="header__row">
+          <div class="logo hide-pc">
+            <a href="sitemap.html">
+              <svg>
+                <use xlink:href="#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <menu>
+            <nav>
+              <ul>
+                <li>
+                  <a class="scroll-to" href="#text-img">Treeix Solutions</a>
+                </li>
+                <li>
+                  <a href="#services" class="scroll-to"> Our Services</a>
+                </li>
+                <li>
+                  <a href="#benefits" class="scroll-to"> Your Benefits</a>
+                </li>
+                <li class="logo">
+                  <a href="sitemap.html">
+                    <svg>
+                      <use xlink:href="#logo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#why-treeix" class="scroll-to">About Treeix</a><span class="accordion-arrow"><svg>
+                      <use xlink:href="#icon-select-arrow"></use>
+                    </svg></span>
+                  <ul class="dropdown-menu">
+                    <li><span>Our Partners</span></li>
+                    <li><a href="#"> Duo Duo Security</a></li>
+                    <li><a href="#"> Duo Duo Security</a></li>
+                    <li><a href="#"> Duo Security Security</a></li>
+                    <li><a href="#">Security Duo Security</a></li>
+                  </ul>
     
-                    <div class="burger hidden-on-desktop">
-                        <span>&nbsp;</span>
-                        <span>&nbsp;</span>
-                        <span>&nbsp;</span>
-                    </div>
-                </menu>
+                </li>
+                <li>
+                  <a href="#easy" class="scroll-to">Easy Start</a>
+                </li>
+                <li>
+                  <a href="#contact-us" class="scroll-to">
+                    <svg>
+                      <use xlink:href="#icon-header-arrow"></use>
+                    </svg>
+                    Contact Us</a>
+                </li>
+              </ul>
+              <div class="social ">
+                <a href="#" class="social__item">
+                  <svg>
+                    <use xlink:href="#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a href="#" class="social__item">
+                  <svg>
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="#" class="social__item">
+                  <svg>
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                </a>
+              </div>        </nav>
+    
+            <div class="burger hidden-on-desktop">
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
             </div>
+          </menu>
         </div>
+      </div>
     </header>    <!-- End header -->
 
 
@@ -168,7 +191,7 @@
       <!-- Start tree section -->
       <section class="section tree t-skew tree--transparent tree--page" id="tree">
         <div class="skew-bg-white skew-bg-white--transform-right"></div>
-       <div class="container">
+        <div class="container">
       
           <h2 class="title title--center">
             Is your business ready for <span> the next big technological revolution?</span>
@@ -242,86 +265,87 @@
       <!-- Start contact-us section -->
       <section class="section contact-us t-skew contact-us--page" id="contact-us">
         <div class="skew-bg-white skew-bg-white--transform-right"></div>
-        <div class="container">
-      
-          <div class="inner">
-            <h6 class="title-sup title--center">
-              Contact Us
-            </h6>
-            <h2 class="title title--center">
-              Begin your journey to <span>success in digital business</span>
-            </h2>
-      
-            <p>
-              Drop us a line or a mail, and our experts will get back to you for an initial discussion
-            </p>
-      
-            <form action="" class="form">
-              <div class="form__row">
-                <div class="form-group--input">
-                  <input type="text" name="name" placeholder="First Name">
-                </div>
-                <div class="form-group--input">
-                  <input type="text" name="last-name" placeholder="Last Name">
-                </div>
-                <div class="form-group--input" data-message="Wrong phone number">
-                  <input type="tel" name="tel" placeholder="Phone" required class="phone-mask" data-number="12">
-                </div>
-                <div class="form-group--input">
-                  <input type="email" name="email" placeholder="Email">
-                </div>
-                <div class="form-group--input">
-                  <input type="text" name="company" placeholder="Company">
-                </div>
-                <div class="form-group--input">
-                  <div class="form-group form-group--select">
-                    <label class="select-label select-label-js">
-                      <input class="input input-value-js" type="text" readonly placeholder="List of Industry (optional)" />
-                  
-                      <!-- Value of this input will be sent to back -->
-                      <input class="input input-key-js" name="select" readonly hidden>
-                  
-                      <span class="select-icon"><svg>
-                          <use xlink:href="#icon-select-arrow"></use>
-                        </svg></span>
-                    </label>
-                  
-                    <ul class="options options-js">
-                      <li class="option option-js" data-key="option 1"> option 1</li>
-                      <li class="option option-js" data-key="option 2"> option 2</li>
-                      <li class="option option-js" data-key="option 3"> option 3</li>
-                      <li class="option option-js" data-key="option 4"> option 4</li>
-                      <li class="option option-js" data-key="option 5"> option 5</li>
-                      <li class="option option-js" data-key="option 6"> option 6</li>
-                    </ul>
-                  </div>          </div>
-              </div>
-              <div class="form__row">
-                <div class="form-group--input">
-                  <textarea name="massage" cols="20" rows="4" placeholder="Your Message to Us"></textarea>
-                </div>
-              </div>
-              <div class="form__row form-group--btn">
-      
-                <a href="#" class="btn btn--accent">
-                  <span>
-                    <svg>
-                      <use xlink:href="#icon-header-arrow"></use>
-                    </svg>
-                    Contact Us
-                  </span>
-                </a>
-              </div>
-            </form>
-          </div>
-      
-          <div class="contact-us__row">
-            <div>
-            </div>
-          </div>
-      
-        </div>
-      </section>
+       
+       <div class="container">
+       
+         <div class="inner">
+           
+           <h6 class="title-sup title--center">
+             Contact Us
+           </h6>
+           <h2 class="title title--center">
+             Begin your journey to <span>success in digital business</span>
+           </h2>
+       
+           <p>
+             Drop us a line or a mail, and our experts will get back to you for an initial discussion
+           </p>
+       
+           <form action="" class="form">
+             <div class="form__row">
+               <div class="form-group--input">
+                 <input type="text" name="name" placeholder="First Name">
+               </div>
+               <div class="form-group--input">
+                 <input type="text" name="last-name" placeholder="Last Name">
+               </div>
+               <div class="form-group--input" data-message="Wrong phone number">
+                 <input type="tel" name="tel" placeholder="Phone" required class="phone-mask" data-number="12">
+               </div>
+               <div class="form-group--input">
+                 <input type="email" name="email" placeholder="Email">
+               </div>
+               <div class="form-group--input">
+                 <input type="text" name="company" placeholder="Company">
+               </div>
+               <div class="form-group--input">
+                 <div class="form-group form-group--select">
+                   <label class="select-label select-label-js">
+                     <input class="input input-value-js" type="text" readonly placeholder="List of Industry (optional)" />
+                 
+                     <!-- Value of this input will be sent to back -->
+                     <input class="input input-key-js" name="select" readonly hidden>
+                 
+                     <span class="select-icon"><svg>
+                         <use xlink:href="#icon-select-arrow"></use>
+                       </svg></span>
+                   </label>
+                 
+                   <ul class="options options-js">
+                     <li class="option option-js" data-key="option 1"> option 1</li>
+                     <li class="option option-js" data-key="option 2"> option 2</li>
+                     <li class="option option-js" data-key="option 3"> option 3</li>
+                     <li class="option option-js" data-key="option 4"> option 4</li>
+                     <li class="option option-js" data-key="option 5"> option 5</li>
+                     <li class="option option-js" data-key="option 6"> option 6</li>
+                   </ul>
+                 </div>        </div>
+             </div>
+             <div class="form__row">
+               <div class="form-group--input">
+                 <textarea name="massage" cols="20" rows="4" placeholder="Your Message to Us"></textarea>
+               </div>
+             </div>
+             <div class="form__row form-group--btn">
+       
+               <a href="#" class="btn btn--accent">
+                 <span>
+                   <svg>
+                     <use xlink:href="#icon-header-arrow"></use>
+                   </svg>
+                   Contact Us
+                 </span>
+               </a>
+             </div>
+           </form>
+         </div>
+       
+         <div class="contact-us__row">
+           <div>
+           </div>
+         </div>
+       
+       </div></section>
       <!-- End contact-us section -->      <!-- End contact-us -->
 
     </div>
@@ -331,7 +355,7 @@
     <!-- Start name section -->
     <div class="footer-dark-blue">
     
-      <section class="section questions" id="questions">
+      <section class=" questions" id="questions">
         <div class="container">
           <div class="inner">
     
